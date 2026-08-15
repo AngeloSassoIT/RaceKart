@@ -85,12 +85,12 @@ th{color:var(--dim);font-weight:600;font-size:14px}
 T = {}
 
 T["en-GB"] = {
-    "tagline": "An arcade kart racer where you steer with the brakes.",
+    "tagline": "An arcade kart racer built on one number: your best lap.",
     "nav": ("Home", "Privacy", "Support"),
-    "home_h": "Build tracks. Brake to turn.",
-    "home_p": "RaceKart is a free arcade kart game for iPhone. There is no drift button: you brake "
-              "into the corner and the kart rotates. Four circuits ship with the game, and you draw "
-              "the rest yourself.",
+    "home_h": "Build tracks. Beat the clock.",
+    "home_p": "RaceKart is a free arcade kart game for iPhone. Nothing chases you and nothing runs "
+              "out: you go round again because the last lap was two tenths off. Four circuits ship "
+              "with the game, and you draw the rest yourself.",
     "home_list": ["Four built-in circuits, plus every one you build",
                   "A full track editor: eight kinds of block",
                   "The same kart for everyone — the Garage changes looks only",
@@ -159,9 +159,9 @@ T["en-GB"] = {
 
 T["en-US"] = dict(T["en-GB"])
 T["en-US"].update({
-    "home_p": "RaceKart is a free arcade kart game for iPhone. There is no drift button: you brake "
-              "into the corner and the kart rotates. Four circuits ship with the game, and you draw "
-              "the rest yourself.",
+    "home_p": "RaceKart is a free arcade kart game for iPhone. Nothing chases you and nothing runs "
+              "out: you go round again because the last lap was two tenths off. Four circuits ship "
+              "with the game, and you draw the rest yourself.",
     "home_list": ["Four built-in circuits, plus every one you build",
                   "A full track editor: eight kinds of block",
                   "The same kart for everyone — the Garage changes looks only",
@@ -179,12 +179,12 @@ T["en-US"]["sup_faq"][3] = ("Do duels need an internet connection?",
                             "Everything else works in airplane mode.")
 
 T["it"] = {
-    "tagline": "Un kart arcade in cui si sterza con i freni.",
+    "tagline": "Un kart arcade costruito attorno a un numero: il tuo giro migliore.",
     "nav": ("Home", "Privacy", "Assistenza"),
-    "home_h": "Crea piste. Frena e gira.",
-    "home_p": "RaceKart è un gioco di kart arcade gratuito per iPhone. Non c'è nessun tasto per "
-              "derapare: si frena in curva e il kart ruota. Quattro circuiti sono compresi nel "
-              "gioco, gli altri li disegni tu.",
+    "home_h": "Crea piste. Batti il tempo.",
+    "home_p": "RaceKart è un gioco di kart arcade gratuito per iPhone. Niente ti insegue e niente "
+              "scade: ci torni perché l'ultimo giro era due decimi sopra. Quattro circuiti sono "
+              "compresi nel gioco, gli altri li disegni tu.",
     "home_list": ["Quattro circuiti in dotazione, più tutti quelli che costruisci",
                   "Un editor di piste completo: otto tipi di blocco",
                   "Lo stesso kart per tutti — il Garage cambia solo l'aspetto",
@@ -253,12 +253,12 @@ T["it"] = {
 }
 
 T["es-ES"] = {
-    "tagline": "Un juego de karts arcade en el que se conduce con los frenos.",
+    "tagline": "Un juego de karts arcade construido sobre un número: tu mejor vuelta.",
     "nav": ("Inicio", "Privacidad", "Soporte"),
-    "home_h": "Crea circuitos. Frena y gira.",
-    "home_p": "RaceKart es un juego de karts arcade gratuito para iPhone. No hay botón de derrape: "
-              "frenas en la curva y el kart gira. El juego incluye cuatro circuitos, y los demás "
-              "los dibujas tú.",
+    "home_h": "Crea circuitos. Bate el tiempo.",
+    "home_p": "RaceKart es un juego de karts arcade gratuito para iPhone. Nada te persigue y nada se "
+              "acaba: vuelves a salir porque la última vuelta se quedó a dos décimas. El juego "
+              "incluye cuatro circuitos, y los demás los dibujas tú.",
     "home_list": ["Cuatro circuitos incluidos, más todos los que construyas",
                   "Un editor de circuitos completo: ocho tipos de bloque",
                   "El mismo kart para todos — el Garaje solo cambia el aspecto",
@@ -330,12 +330,12 @@ T["es-ES"] = {
 }
 
 T["fr-FR"] = {
-    "tagline": "Un jeu de karting arcade où l'on pilote aux freins.",
+    "tagline": "Un jeu de karting arcade bâti sur un chiffre : votre meilleur tour.",
     "nav": ("Accueil", "Confidentialité", "Assistance"),
-    "home_h": "Créez vos circuits. Freinez.",
-    "home_p": "RaceKart est un jeu de karting arcade gratuit pour iPhone. Il n'y a pas de bouton de "
-              "dérapage : vous freinez à l'entrée du virage et le kart pivote. Quatre circuits sont "
-              "fournis, les autres, vous les dessinez.",
+    "home_h": "Créez vos circuits. Battez le chrono.",
+    "home_p": "RaceKart est un jeu de karting arcade gratuit pour iPhone. Rien ne vous poursuit et "
+              "rien ne s'épuise : vous repartez parce que le dernier tour est passé à deux dixièmes. "
+              "Quatre circuits sont fournis, les autres, vous les dessinez.",
     "home_list": ["Quatre circuits fournis, plus tous ceux que vous construisez",
                   "Un éditeur de circuits complet : huit types de blocs",
                   "Le même kart pour tous — le Garage ne change que l'allure",
@@ -407,12 +407,12 @@ T["fr-FR"] = {
 }
 
 T["de-DE"] = {
-    "tagline": "Ein Arcade-Kartspiel, in dem man mit der Bremse lenkt.",
+    "tagline": "Ein Arcade-Kartspiel um eine einzige Zahl: deine beste Runde.",
     "nav": ("Start", "Datenschutz", "Support"),
-    "home_h": "Strecken bauen. Bremsen.",
-    "home_p": "RaceKart ist ein kostenloses Arcade-Kartspiel für das iPhone. Es gibt keinen "
-              "Drift-Knopf: Du bremst in die Kurve und der Kart dreht ein. Vier Strecken sind "
-              "enthalten, alle weiteren zeichnest du selbst.",
+    "home_h": "Strecken bauen. Bestzeit jagen.",
+    "home_p": "RaceKart ist ein kostenloses Arcade-Kartspiel für das iPhone. Nichts jagt dich, "
+              "nichts läuft ab: Du fährst wieder los, weil die letzte Runde zwei Zehntel danebenlag. "
+              "Vier Strecken sind enthalten, alle weiteren zeichnest du selbst.",
     "home_list": ["Vier mitgelieferte Strecken, plus jede, die du baust",
                   "Ein vollständiger Streckeneditor: acht Bausteintypen",
                   "Derselbe Kart für alle — die Garage ändert nur das Aussehen",
