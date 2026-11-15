@@ -59,8 +59,10 @@ th{color:var(--dim);font-weight:600;font-size:14px}
 <table><tr><th>Votre pseudo Game Center</th><td>Il accompagne un circuit que vous publiez et un duel auquel vous participez, pour que les autres voient à qui appartient le circuit et contre qui ils roulent. L'app lit votre <em>alias</em>, jamais votre vrai nom.</td></tr>
 <tr><th>Un identifiant de compte</th><td>Un identifiant opaque fourni par Apple (iCloud), qui relie un circuit à son auteur et empêche de voter deux fois. De notre côté, il ne permet pas de remonter à vous.</td></tr>
 <tr><th>Les circuits que vous publiez</th><td>Le tracé, plus un temps au tour et la peinture de votre kart. Il n'y a aucun champ de texte libre : les noms de circuits sont générés par l'app, et il n'existe ni chat ni messagerie.</td></tr></table>
+<h3>Courses en temps réel (LIVE)</h3>
+<p>Cela vaut quand vous courez en temps réel contre d'autres joueurs, ce que vous ne faites que si vous le choisissez. Aujourd'hui, ces courses sont disponibles dans les versions de test (TestFlight). Quand vous en lancez une, l'app se connecte au serveur de course de RaceKart, que nous gérons (race.simplebuild.it), et lui envoie : l'identifiant Game Center de votre équipe (teamPlayerID) avec la signature d'Apple qui en prouve l'authenticité, votre pseudo Game Center (l'<em>alias</em>), la peinture du kart, la version de l'app et, pendant la course, la position du kart plusieurs fois par seconde et le temps final. Comme tout serveur, il reçoit aussi votre adresse IP, pour pouvoir vous répondre.</p><p>Ces données servent à réunir les joueurs, à montrer aux autres où vous êtes et à établir le classement de cette course. Pas de publicité, pas de pistage. Le serveur les garde en mémoire tant que vous êtes connecté et ne les enregistre pas dans une base de données. Après la déconnexion, elles ne sont pas conservées, hormis dans les journaux techniques habituels qu'un serveur tient pour fonctionner, pendant une durée limitée.</p>
 <h3>Ce qui reste sur votre téléphone</h3>
-<p>Vos temps, les fantômes enregistrés, la disposition des commandes, le thème de l'interface, les volumes, les auteurs bloqués et les circuits que vous construisez vivent sur votre iPhone et ne sont jamais transmis. Votre profil de pilote se synchronise entre vos appareils via votre iCloud privé, que nous ne pouvons pas lire.</p>
+<p>Hormis ce qui est décrit plus haut, vos temps, les fantômes enregistrés, la disposition des commandes, le thème de l'interface, les volumes, les auteurs bloqués et les circuits que vous construisez vivent sur votre iPhone et ne sont pas transmis. Votre profil de pilote se synchronise entre vos appareils via votre iCloud privé, que nous ne pouvons pas lire.</p>
 <h3>Pistage</h3>
 <p>Rien dans RaceKart ne sert à vous pister. Aucun courtier en données, aucun identifiant publicitaire, et aucune donnée n'est jamais recoupée avec celles d'autres applications ou de sites web.</p>
 <h3>Retirer ce que vous avez publié</h3>
@@ -70,7 +72,7 @@ th{color:var(--dim);font-weight:600;font-size:14px}
 
 <footer>
 <p>RaceKart est réalisé par Angelo Sasso. Sans lien avec un constructeur de karts ou un championnat.</p>
-<p>Contact: <a href="mailto:support@simplebuild.it">support@simplebuild.it</a> · Dernière mise à jour: 2026-08-15</p>
+<p>Contact: <a href="mailto:support@simplebuild.it">support@simplebuild.it</a> · Dernière mise à jour: 2026-11-15</p>
 <div class="langs"><a href="https://angelosassoit.github.io/RaceKart/privacy.html">en-GB</a> · <a href="https://angelosassoit.github.io/RaceKart/en-us/privacy.html">en-US</a> · <a href="https://angelosassoit.github.io/RaceKart/it/privacy.html">it</a> · <a href="https://angelosassoit.github.io/RaceKart/es-es/privacy.html">es</a> · <a href="https://angelosassoit.github.io/RaceKart/fr/privacy.html">fr</a> · <a href="https://angelosassoit.github.io/RaceKart/de/privacy.html">de</a></div>
 </footer>
 </div>
